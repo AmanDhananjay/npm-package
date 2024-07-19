@@ -5,6 +5,10 @@
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
+  "homepage": "https://github.com/AmanDhananjay/npm-package",
+  "repository": {
+    "url": "https://github.com/AmanDhananjay/npm-package"
+  },
   "scripts": {
     "build": "tsup"
   },
