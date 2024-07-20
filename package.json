@@ -1,24 +1,32 @@
+
 {
-  "name": "environment-ui-element",
+  "name": "ui_element",
   "version": "1.0.0",
+  "main": "dist/index.js",
+  "type": "module",
+  "types": "dist/index.d.ts",
+
+  "scripts": {
+    "build": "npx rollup -c"
+  },
+
+  "keywords": ["ui_element","navbar","form"],
+  "author": "Aman Dhananjay",
+  "license": "ISC",
   "description": "useful components for website,easy to use component like nevbar,footer, form ,card etc. ",
-  "main": "./dist/index.js",
-  "module": "./dist/index.mjs",
-  "types": "./dist/index.d.ts",
+ 
   "homepage": "https://github.com/AmanDhananjay/npm-package",
   "repository": {
     "url": "https://github.com/AmanDhananjay/npm-package"
   },
-  "scripts": {
-    "build": "tsup"
-  },
-  "keywords": [
-    "test"
-  ],
-  "author": "Aman Dhananjay",
-  "license": "MIT License",
   "devDependencies": {
-    "tsup": "^8.1.2",
-    "typescript": "^5.5.3"
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/react": "^18.3.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "rollup": "^4.18.1",
+    "rollup-plugin-postcss": "^4.0.2",
+    "tslib": "^2.6.3"
   }
 }
