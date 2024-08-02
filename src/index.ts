@@ -1,9 +1,6 @@
-export * from "./components/btnwiggle";
-export * from "./components/endbox";
-export * from "./components/loader";
-export * from "./components/pacman";
-export * from "./components/rectangle";
-export * from "./components/scroll-watcher";
-export * from "./components/spinner";
-export * from "./components/squareloader";
-export * from "./components/simpleloader"
+export * from "./components/card";
+export * from "./components/footer";
+export * from "./components/form";
+
+export * from "./components/navbar";
+
